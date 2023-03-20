@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+p:first-child{
+	background-color:black;
+	color:white;
+}
+p:nth-child(4){
+	color:red;
+}
+li:first-child, li:last-child{
+	background-color:white;
+}
+li:nth-child(2), li:nth-child(4){
+	background-color:grey;
+}
+li:nth-child(3){
+	background-color:pink;
+}
+:root{
+	background-color:skyblue;
+}
